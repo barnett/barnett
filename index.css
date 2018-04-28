@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 16vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 6vw;
+  margin-bottom: 6vh;
+}
