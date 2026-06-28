@@ -1,53 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Barnett's Website</title>
+    <title>Builds | Barnett's Website</title>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='description' content="Barnett Klane's Personal Website">
-    <meta property='og:title' content="Barnett's Website">
-    <meta property='og:description' content="Barnett Klane's Personal Website">
+    <meta name='description' content="Projects built by Barnett Klane">
+    <meta property='og:title' content="Builds | Barnett's Website">
+    <meta property='og:description' content="Projects built by Barnett Klane">
     <meta property='og:type' content='website'>
-    <meta property='og:url' content='https://barnett.klane.works'>
+    <meta property='og:url' content='https://barnett.klane.works/builds.html'>
     <meta name='twitter:card' content='summary'>
     <link rel='icon' href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect width="64" height="64" rx="12" fill="%231a1a1a"/%3E%3Ctext x="50%25" y="54%25" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="white"%3EB%3C/text%3E%3C/svg%3E'>
     <link rel='stylesheet' href='index.css'>
   </head>
 
-  <body class='home'>
-    <main class='home-main' aria-label='Barnett Klane website'>
-      <h1>Barnett</h1>
-      <nav aria-label='Profiles'>
-        <ul>
-          <li>
-            <a href='builds.html' aria-label='Projects built by Barnett'>🏗️ Builds</a>
-          </li>
-          <li>
-            <a href='https://github.com/barnett' target='_blank' rel='noopener noreferrer' aria-label='GitHub profile'>⌨️ Codes</a>
-          </li>
-          <li>
-            <a href='https://www.strava.com/athletes/18444351' target='_blank' rel='noopener noreferrer' aria-label='Strava profile'>💪 Competes</a>
-          </li>
-          <li>
-            <a href='https://www.bugcrowd.com/barnett/' target='_blank' rel='noopener noreferrer' aria-label='Bugcrowd profile'>🖥️ Hacks</a>
-          </li>
-          <li>
-            <a href='https://open.spotify.com/user/blklane/' target='_blank' rel='noopener noreferrer' aria-label='Spotify profile'>🎶 Listens</a>
-          </li>
-          <li>
-            <a href='https://www.instagram.com/barnettklane/' target='_blank' rel='noopener noreferrer' aria-label='Instagram profile'>📷 Photographs</a>
-          </li>
-          <li>
-            <a href='https://twitter.com/barnettklane' target='_blank' rel='noopener noreferrer' aria-label='Twitter profile'>📣 Tweets</a>
-          </li>
-          <li>
-            <a href='https://www.linkedin.com/in/barnettklane/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn profile'>🏢 Works</a>
-          </li>
-          <li>
-            <a href='https://medium.com/@barnettklane' target='_blank' rel='noopener noreferrer' aria-label='Medium profile'>🖋 Writes</a>
-          </li>
-        </ul>
-      </nav>
+  <body>
+    <main class='builds-main' aria-label='Projects built by Barnett Klane'>
+      <header class='builds-header'>
+        <a class='back-link' href='index.html' aria-label="Back to Barnett's homepage">← Barnett</a>
+        <h1>Builds</h1>
+      </header>
+
+      <ul class='project-list'>
+        <li class='project'>
+          <a class='project-link' href='https://snow.watch' target='_blank' rel='noopener noreferrer'>snow.watch</a>
+          <p>Snow alerts and resort history for finding powder days.</p>
+          <a class='source-link' href='https://github.com/barnett/snow.watch' target='_blank' rel='noopener noreferrer'>Source</a>
+        </li>
+        <li class='project'>
+          <a class='project-link' href='https://calendar.google.com/calendar/embed?src=68306d6a2dd030b1b676e82e24b35d19c395c698cc1ab9d31917584985b3970a%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles' target='_blank' rel='noopener noreferrer'>Arizmendi pizza calendar</a>
+          <p>A generated calendar for Arizmendi's rotating pizza schedule.</p>
+          <a class='source-link' href='https://github.com/barnett/arizmendi-calendar' target='_blank' rel='noopener noreferrer'>Source</a>
+        </li>
+        <li class='project'>
+          <a class='project-link' href='https://www.not-dead-yet.org/' target='_blank' rel='noopener noreferrer'>Not Dead Yet</a>
+          <p>Cemetery and gravestone records for historical exploration.</p>
+          <a class='source-link' href='https://github.com/barnett/not-dead-yet' target='_blank' rel='noopener noreferrer'>Source</a>
+        </li>
+      </ul>
     </main>
 
     <script type="text/javascript">
