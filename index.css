@@ -94,8 +94,7 @@ a:focus-visible {
   margin-bottom: clamp(2.5rem, 10svh, 5rem);
 }
 
-.back-link,
-.source-link {
+.back-link {
   align-self: flex-start;
   justify-self: start;
   font-size: 1rem;
