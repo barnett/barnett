@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barnett.klane.works/sitemap.xml
