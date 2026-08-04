@@ -3,16 +3,21 @@
 }
 
 body {
-  height: 100vh;
-  height: 100svh;
+  min-height: 100vh;
+  min-height: 100svh;
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #ffffff;
   color: #1a1a1a;
+}
+
+.home {
+  height: 100vh;
+  height: 100svh;
   overflow: hidden;
 }
 
-main {
+.home-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +27,7 @@ main {
   padding: max(0.75rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(0.75rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
 }
 
-h1 {
+.home-main h1 {
   font-size: min(15vw, 15svh);
   margin: 0;
   font-weight: 600;
@@ -30,13 +35,13 @@ h1 {
   line-height: 1;
 }
 
-nav {
+.home-main nav {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-ul {
+.home-main ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -47,7 +52,7 @@ ul {
   gap: min(4.5svh, 2rem);
 }
 
-li {
+.home-main li {
   font-size: min(5.5vw, 4svh);
   font-weight: 300;
   line-height: 1;
@@ -74,4 +79,82 @@ a:hover {
 
 a:focus-visible {
   box-shadow: 0 0 0 0.2rem #1a1a1a;
+}
+
+.builds-main {
+  width: min(56rem, 100%);
+  margin: 0 auto;
+  padding: max(2rem, env(safe-area-inset-top)) max(1.25rem, env(safe-area-inset-right)) max(2rem, env(safe-area-inset-bottom)) max(1.25rem, env(safe-area-inset-left));
+}
+
+.builds-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: clamp(2.5rem, 10svh, 5rem);
+}
+
+.back-link {
+  align-self: flex-start;
+  justify-self: start;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.builds-header h1 {
+  margin: 0;
+  font-size: clamp(3rem, 16vw, 7rem);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 0.95;
+}
+
+.project-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3.5rem, 10svh, 6rem);
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  display: grid;
+  gap: 1rem;
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.5rem;
+}
+
+.project h2 {
+  justify-self: start;
+  margin: 0;
+  font-size: clamp(2rem, 8vw, 3.75rem);
+  font-weight: 300;
+  line-height: 1;
+}
+
+.project p {
+  max-width: 32rem;
+  margin: 0;
+  color: #4a4a4a;
+  font-size: clamp(1rem, 2.8vw, 1.25rem);
+  line-height: 1.45;
+}
+
+.project-cta {
+  justify-self: start;
+  margin-top: 0.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #1a1a1a;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
 }
