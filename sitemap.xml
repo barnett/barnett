@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://barnett.klane.works/</loc>
-  </url>
+  <url><loc>https://barnett.klane.works/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/where-i-want-to-be/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/the-making-of-whereis-co/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/it-is-about-the-bike/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/relating-happiness-and-money/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/i-fucked-up/</loc></url>
+  <url><loc>https://barnett.klane.works/writing/being-over-your-head/</loc></url>
 </urlset>
