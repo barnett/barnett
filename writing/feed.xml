@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Barnett Klane — Writing</title>
+    <link>https://barnett.klane.works/writing/</link>
+    <description>Personal essays by Barnett Klane.</description>
+    <language>en-us</language>
+    <item>
+      <title>Where I want to be</title>
+      <link>https://barnett.klane.works/writing/where-i-want-to-be/</link>
+      <guid>https://barnett.klane.works/writing/where-i-want-to-be/</guid>
+      <pubDate>Wed, 03 May 2017 15:23:42 +0000</pubDate>
+      <description>Four years of setbacks, persistence, and finally reaching the place I had been working toward.</description>
+    </item>
+    <item>
+      <title>The Making of WhereIs.co</title>
+      <link>https://barnett.klane.works/writing/the-making-of-whereis-co/</link>
+      <guid>https://barnett.klane.works/writing/the-making-of-whereis-co/</guid>
+      <pubDate>Tue, 20 Oct 2015 14:52:37 +0000</pubDate>
+      <description>How a simple weekend idea became a shipped product—and what the process taught me about making things.</description>
+    </item>
+    <item>
+      <title>It is about the bike</title>
+      <link>https://barnett.klane.works/writing/it-is-about-the-bike/</link>
+      <guid>https://barnett.klane.works/writing/it-is-about-the-bike/</guid>
+      <pubDate>Tue, 19 May 2015 02:39:05 +0000</pubDate>
+      <description>Building a bicycle from second-hand parts, breaking it, and learning why understanding the tools we use matters.</description>
+    </item>
+    <item>
+      <title>Relating Happiness &amp; Money</title>
+      <link>https://barnett.klane.works/writing/relating-happiness-and-money/</link>
+      <guid>https://barnett.klane.works/writing/relating-happiness-and-money/</guid>
+      <pubDate>Sun, 23 Feb 2014 22:20:21 +0000</pubDate>
+      <description>A short- and long-run view of the tradeoff between money, happiness, and choosing work that leads somewhere meaningful.</description>
+    </item>
+    <item>
+      <title>I fucked up…</title>
+      <link>https://barnett.klane.works/writing/i-fucked-up/</link>
+      <guid>https://barnett.klane.works/writing/i-fucked-up/</guid>
+      <pubDate>Fri, 08 Nov 2013 04:26:00 +0000</pubDate>
+      <description>The mistakes behind a failed venture, and why the lessons were still worth the cost.</description>
+    </item>
+    <item>
+      <title>Being over your head</title>
+      <link>https://barnett.klane.works/writing/being-over-your-head/</link>
+      <guid>https://barnett.klane.works/writing/being-over-your-head/</guid>
+      <pubDate>Sun, 30 Jun 2013 19:13:22 +0000</pubDate>
+      <description>Why being the least experienced person in the room can be the fastest way to learn.</description>
+    </item>
+  </channel>
+</rss>
