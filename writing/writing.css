@@ -4,7 +4,6 @@
   --muted: #666;
   --line: #dedede;
   --paper: #fff;
-  --soft: #f5f5f3;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -49,6 +48,28 @@ a:focus-visible {
   margin: 0 auto;
   padding: 1.25rem 0;
   border-bottom: 1px solid var(--line);
+}
+
+.reading-progress {
+  position: fixed;
+  z-index: 100;
+  inset: 0 0 auto;
+  height: 3px;
+  overflow: hidden;
+  pointer-events: none;
+  background: rgb(26 26 26 / 16%);
+}
+
+.reading-progress-bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--ink);
+  box-shadow: 0 0 8px rgb(26 26 26 / 35%);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 80ms linear;
+  will-change: transform;
 }
 
 .site-header a {
@@ -225,21 +246,6 @@ a:focus-visible {
   font-size: 0.82rem;
 }
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0 0 1.5rem;
-  padding: 0;
-  list-style: none;
-}
-
-.tags li {
-  padding: 0.35rem 0.65rem;
-  border-radius: 999px;
-  background: var(--soft);
-}
-
 .back-link {
   display: inline-block;
   margin-top: 1rem;
@@ -277,5 +283,9 @@ a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .reading-progress-bar {
+    transition: none;
   }
 }
